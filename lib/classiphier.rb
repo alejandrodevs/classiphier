@@ -1,5 +1,7 @@
 require 'classiphier/version'
+require 'classiphier/extensions/string'
 
 module Classiphier
-  # Your code goes here...
+  autoload :Data,  'classiphier/data'
+  autoload :Bayes, 'classiphier/bayes'
 end
