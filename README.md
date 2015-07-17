@@ -2,7 +2,8 @@
 [![Build Status](https://travis-ci.org/alejandrogutierrez/classiphier.png?branch=master)](https://travis-ci.org/alejandrogutierrez/classiphier)
 
 Classifier module using Bayesian's theorem.
-Based on cardmagic/classifier implementation.
+
+*This is another implementation based on cardmagic/classifier.*
 
 
 
