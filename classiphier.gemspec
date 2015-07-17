@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ['Alejandro Gutiérrez']
   spec.email         = ['alejandrodevs@gmail.com']
 
-  spec.summary       = ''
-  spec.description   = ''
+  spec.summary       = 'Classifier module using Bayesian\'s theorem.'
+  spec.description   = 'Classifier module using Bayesian\'s theorem.'
   spec.homepage      = 'https://github.com/alejandrogutierrez/classiphier'
   spec.license       = 'MIT'
 
@@ -21,5 +21,4 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency 'bundler', '~> 1.10'
   spec.add_development_dependency 'rake', '~> 10.0'
-  spec.add_development_dependency 'rspec'
 end
