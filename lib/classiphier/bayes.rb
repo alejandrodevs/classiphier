@@ -5,7 +5,7 @@ module Classiphier
     end
 
     def train(category, sentence)
-      @data[:size] += 1
+      @data.perform!
       @data[:data][category] ||= Data.new
       @data[:data][category].train(sentence)
     end
@@ -19,11 +19,11 @@ module Classiphier
         @data[:data].each do |category, data|
           sentence.words.each do |word|
             value = data[:data].fetch(word, 0.1).to_f
-            score[category] += Math.log(value / data[:size])
+            score[category] += Math.log(value / data[:words])
           end
 
-          value = @data[:data][category][:size].to_f
-          score[category] += Math.log(value / @data[:size])
+          value = @data[:data][category][:count].to_f
+          score[category] += Math.log(value / @data[:count])
         end
       end
     end

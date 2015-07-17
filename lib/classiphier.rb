@@ -1,3 +1,4 @@
+require 'fast-stemmer'
 require 'classiphier/version'
 require 'classiphier/extensions/string'
 
