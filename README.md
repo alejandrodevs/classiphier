@@ -1,5 +1,5 @@
 # Classiphier
-[![Build Status](https://travis-ci.org/alejandrogutierrez/classiphier.png?branch=master)](https://travis-ci.org/alejandrogutierrez/classiphier)
+[![Build Status](https://travis-ci.org/alejandrodevs/classiphier.png?branch=master)](https://travis-ci.org/alejandrodevs/classiphier)
 
 Classifier module using Bayesian's theorem.
 
