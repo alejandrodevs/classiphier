@@ -29,7 +29,3 @@ classifier.train :negative, 'Here are some bad words, I hate you'
 
 classifier.classify 'I like these tweets' # => :positive
 ```
-
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/alejandrodevs/classiphier/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
